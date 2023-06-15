@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Memory Game</h1>
+  <div class="game-board">
+    <!-- The game board will be generated dynamically -->
+  </div>
+  <div id="game-info">
+    <div class="info-item">
+      Moves: <span id="moveCount">0</span>
+    </div>
+    <div class="info-item">
+      Time: <span id="timeElapsed">00:00</span>
+    </div>
+  </div>
+  <button id="startButton">Start</button>
+
+  <table id="gameResultsTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Time (seconds)</th>
+        <th>Moves</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Game results will be dynamically inserted here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
